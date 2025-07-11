@@ -1,9 +1,17 @@
 body {
-  background-color: rgb(248, 207, 167);
+  background-color: rgb(232, 184, 136);
 }
-p {  
+body{  
     color: rgb(56, 50, 97); 
-}  
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+  
+  
+  
+  
+}
 #paral{
     font-weight: bold;
     font-size :130%;
@@ -20,3 +28,38 @@ h1 {
   margin-left: 40px;
 }
 
+
+body {
+  font-size: 16px; 
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px; 
+  }
+
+  .container {
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container{
+    width: 80%; 
+    margin: 0 auto;
+    padding: 30px;
+  }
+}
